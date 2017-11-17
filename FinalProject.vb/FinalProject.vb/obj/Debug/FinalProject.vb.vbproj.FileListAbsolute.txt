@@ -1,0 +1,13 @@
+C:\Users\THEROOT77\Documents\GitHub_Projects\Final Project\FinalProject.vb\FinalProject.vb\bin\Debug\FinalProject.vb.exe.config
+C:\Users\THEROOT77\Documents\GitHub_Projects\Final Project\FinalProject.vb\FinalProject.vb\bin\Debug\FinalProject.vb.exe
+C:\Users\THEROOT77\Documents\GitHub_Projects\Final Project\FinalProject.vb\FinalProject.vb\bin\Debug\FinalProject.vb.pdb
+C:\Users\THEROOT77\Documents\GitHub_Projects\Final Project\FinalProject.vb\FinalProject.vb\bin\Debug\FinalProject.vb.xml
+C:\Users\THEROOT77\Documents\GitHub_Projects\Final Project\FinalProject.vb\FinalProject.vb\obj\Debug\FinalProject.vb.vbprojResolveAssemblyReference.cache
+C:\Users\THEROOT77\Documents\GitHub_Projects\Final Project\FinalProject.vb\FinalProject.vb\obj\Debug\FinalProject.vb.LogInForm.resources
+C:\Users\THEROOT77\Documents\GitHub_Projects\Final Project\FinalProject.vb\FinalProject.vb\obj\Debug\FinalProject.vb.MainForm.resources
+C:\Users\THEROOT77\Documents\GitHub_Projects\Final Project\FinalProject.vb\FinalProject.vb\obj\Debug\FinalProject.vb.Resources.resources
+C:\Users\THEROOT77\Documents\GitHub_Projects\Final Project\FinalProject.vb\FinalProject.vb\obj\Debug\FinalProject.vb.vbproj.GenerateResource.Cache
+C:\Users\THEROOT77\Documents\GitHub_Projects\Final Project\FinalProject.vb\FinalProject.vb\obj\Debug\FinalProject.vb.vbproj.CoreCompileInputs.cache
+C:\Users\THEROOT77\Documents\GitHub_Projects\Final Project\FinalProject.vb\FinalProject.vb\obj\Debug\FinalProject.vb.exe
+C:\Users\THEROOT77\Documents\GitHub_Projects\Final Project\FinalProject.vb\FinalProject.vb\obj\Debug\FinalProject.vb.xml
+C:\Users\THEROOT77\Documents\GitHub_Projects\Final Project\FinalProject.vb\FinalProject.vb\obj\Debug\FinalProject.vb.pdb
