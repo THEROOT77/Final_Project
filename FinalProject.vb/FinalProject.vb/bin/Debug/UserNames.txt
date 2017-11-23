@@ -1,0 +1,10 @@
+Denver
+FortWayne
+NorthDakotaState
+Omaha
+OralRoberts
+SouthDakota
+SouthDakotaState
+WesternIllinois
+
+
