@@ -23,12 +23,10 @@ Partial Class LogInForm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.lblUserName = New System.Windows.Forms.Label()
-        Me.chkAdmin = New System.Windows.Forms.CheckBox()
         Me.txtUserName = New System.Windows.Forms.TextBox()
         Me.lblPassWord = New System.Windows.Forms.Label()
         Me.txtPassWord = New System.Windows.Forms.TextBox()
         Me.btnSave = New System.Windows.Forms.Button()
-        Me.btnExit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblUserName
@@ -39,16 +37,6 @@ Partial Class LogInForm
         Me.lblUserName.Size = New System.Drawing.Size(83, 17)
         Me.lblUserName.TabIndex = 0
         Me.lblUserName.Text = "User Name:"
-        '
-        'chkAdmin
-        '
-        Me.chkAdmin.AutoSize = True
-        Me.chkAdmin.Location = New System.Drawing.Point(124, 152)
-        Me.chkAdmin.Name = "chkAdmin"
-        Me.chkAdmin.Size = New System.Drawing.Size(69, 21)
-        Me.chkAdmin.TabIndex = 1
-        Me.chkAdmin.Text = "Admin"
-        Me.chkAdmin.UseVisualStyleBackColor = True
         '
         'txtUserName
         '
@@ -75,32 +63,21 @@ Partial Class LogInForm
         '
         'btnSave
         '
-        Me.btnSave.Location = New System.Drawing.Point(38, 197)
+        Me.btnSave.Location = New System.Drawing.Point(86, 167)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(75, 39)
         Me.btnSave.TabIndex = 3
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
-        'btnExit
-        '
-        Me.btnExit.Location = New System.Drawing.Point(176, 197)
-        Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(75, 39)
-        Me.btnExit.TabIndex = 3
-        Me.btnExit.Text = "Exit"
-        Me.btnExit.UseVisualStyleBackColor = True
-        '
         'LogInForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(283, 259)
-        Me.Controls.Add(Me.btnExit)
+        Me.ClientSize = New System.Drawing.Size(283, 230)
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.txtPassWord)
         Me.Controls.Add(Me.txtUserName)
-        Me.Controls.Add(Me.chkAdmin)
         Me.Controls.Add(Me.lblPassWord)
         Me.Controls.Add(Me.lblUserName)
         Me.Name = "LogInForm"
@@ -111,10 +88,8 @@ Partial Class LogInForm
     End Sub
 
     Friend WithEvents lblUserName As Label
-    Friend WithEvents chkAdmin As CheckBox
     Friend WithEvents txtUserName As TextBox
     Friend WithEvents lblPassWord As Label
     Friend WithEvents txtPassWord As TextBox
     Friend WithEvents btnSave As Button
-    Friend WithEvents btnExit As Button
 End Class
