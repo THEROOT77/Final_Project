@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class LogInForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,13 +20,12 @@ Partial Class LogInForm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.lblUserName = New System.Windows.Forms.Label()
         Me.txtUserName = New System.Windows.Forms.TextBox()
         Me.lblPassWord = New System.Windows.Forms.Label()
         Me.txtPassWord = New System.Windows.Forms.TextBox()
-        Me.btnSave = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblUserName
@@ -61,21 +60,11 @@ Partial Class LogInForm
         Me.txtPassWord.Size = New System.Drawing.Size(127, 22)
         Me.txtPassWord.TabIndex = 2
         '
-        'btnSave
-        '
-        Me.btnSave.Location = New System.Drawing.Point(86, 167)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(75, 39)
-        Me.btnSave.TabIndex = 3
-        Me.btnSave.Text = "Save"
-        Me.btnSave.UseVisualStyleBackColor = True
-        '
         'LogInForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(283, 230)
-        Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.txtPassWord)
         Me.Controls.Add(Me.txtUserName)
         Me.Controls.Add(Me.lblPassWord)
@@ -91,5 +80,4 @@ Partial Class LogInForm
     Friend WithEvents txtUserName As TextBox
     Friend WithEvents lblPassWord As Label
     Friend WithEvents txtPassWord As TextBox
-    Friend WithEvents btnSave As Button
 End Class
