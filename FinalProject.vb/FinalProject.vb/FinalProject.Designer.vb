@@ -23,9 +23,7 @@ Partial Class LogInForm
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.lblUserName = New System.Windows.Forms.Label()
-        Me.txtUserName = New System.Windows.Forms.TextBox()
         Me.lblPassWord = New System.Windows.Forms.Label()
-        Me.txtPassWord = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'lblUserName
@@ -37,13 +35,6 @@ Partial Class LogInForm
         Me.lblUserName.TabIndex = 0
         Me.lblUserName.Text = "User Name:"
         '
-        'txtUserName
-        '
-        Me.txtUserName.Location = New System.Drawing.Point(124, 41)
-        Me.txtUserName.Name = "txtUserName"
-        Me.txtUserName.Size = New System.Drawing.Size(127, 22)
-        Me.txtUserName.TabIndex = 2
-        '
         'lblPassWord
         '
         Me.lblPassWord.AutoSize = True
@@ -53,20 +44,11 @@ Partial Class LogInForm
         Me.lblPassWord.TabIndex = 0
         Me.lblPassWord.Text = "Password:"
         '
-        'txtPassWord
-        '
-        Me.txtPassWord.Location = New System.Drawing.Point(124, 101)
-        Me.txtPassWord.Name = "txtPassWord"
-        Me.txtPassWord.Size = New System.Drawing.Size(127, 22)
-        Me.txtPassWord.TabIndex = 2
-        '
         'LogInForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(283, 230)
-        Me.Controls.Add(Me.txtPassWord)
-        Me.Controls.Add(Me.txtUserName)
         Me.Controls.Add(Me.lblPassWord)
         Me.Controls.Add(Me.lblUserName)
         Me.Name = "LogInForm"
@@ -77,7 +59,5 @@ Partial Class LogInForm
     End Sub
 
     Friend WithEvents lblUserName As Label
-    Friend WithEvents txtUserName As TextBox
     Friend WithEvents lblPassWord As Label
-    Friend WithEvents txtPassWord As TextBox
 End Class
